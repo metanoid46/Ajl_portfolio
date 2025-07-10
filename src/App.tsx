@@ -15,7 +15,7 @@ function App() {
       <MainLayout>
         <Routes location={location} key={location.pathname}>
           <Route 
-            path="/Ajl_portfolio" 
+            path="/Ajl_portfolio/" 
             element={
               <PageTransitionWrapper transitionType="zoom">
                 <HomePage />
