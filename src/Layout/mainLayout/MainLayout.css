@@ -60,7 +60,7 @@ html, body, #root {
   .wrapper {
   width: 100vw;
   height: 80vh;
-  padding: 0.1vh 0.3vw;
+  padding: 0.2vh 0.3vw;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
