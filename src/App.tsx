@@ -1,4 +1,4 @@
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate,useLocation } from 'react-router-dom';
 import { ThemeProvider } from './components/ThemeProvider';
 import MainLayout from './Layout/mainLayout/MainLayout';
 import { HomePage } from './pages/homepage/HomePage';
@@ -14,6 +14,7 @@ function App() {
     <ThemeProvider>
       <MainLayout>
         <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Navigate to="/Ajl_portfolio" />} />
           <Route 
             path="/Ajl_portfolio" 
             element={

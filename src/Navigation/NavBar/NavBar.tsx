@@ -25,7 +25,7 @@ const NavBar = () => {
           <Tooltip key={item.id}>
             <TooltipTrigger asChild>
               <button
-              defaultChecked={item.id===1}
+              
                 className={`icon ${isActive ? 'iconActive' : ''}`}
                 onClick={() => navigate(item.nav)}
               >
