@@ -98,8 +98,14 @@ export const HomePage: React.FC = () => {
   <div className='scrambleContainer'>
     <div className='scrambledText'>
       {scrambledText.map((char, i) => (
-        <span key={i}>{char}</span>
+        <span
+          key={i}
+          className={char === ' ' ? 'space-char' : 'char'}
+        >
+          {char === ' ' ? '\u00A0' : char}
+        </span>
       ))}
+
     </div>
     <div className='tagText' ref={wordRef}>
       {tags[currentIndex]}

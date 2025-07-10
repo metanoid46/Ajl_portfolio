@@ -27,7 +27,7 @@ html, body, #root {
 .contents {
     display: flex;
   width: 80%;
-  height: 80%;
+  height: 90%;
   overflow: hidden;
 
 }
