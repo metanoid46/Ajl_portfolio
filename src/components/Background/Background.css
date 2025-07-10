@@ -1,0 +1,19 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(204, 80, 80, 0.795);
+  box-shadow: 0 0 10px rgba(204, 80, 80, 0.596);
+  will-change: transform;
+  transition: transform 0.3s ease;
+}
