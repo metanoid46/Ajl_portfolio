@@ -27,7 +27,7 @@ function App() {
             element={<Navigate to="/Ajl_portfolio" replace />}
           />
           <Route 
-            path="/projects" 
+            path="/Ajl_portfolio/projects" 
             element={
               <PageTransitionWrapper transitionType="pushUp">
                 <ProjectPage />
@@ -35,7 +35,7 @@ function App() {
             } 
           />
           <Route 
-            path="/about" 
+            path="/Ajl_portfolio/about" 
             element={
               <PageTransitionWrapper transitionType="pushDown">
                 <AboutPage />
@@ -43,7 +43,7 @@ function App() {
             } 
           />
           <Route 
-            path="/contact" 
+            path="/Ajl_portfolio/contact" 
             element={
               <PageTransitionWrapper transitionType="fade">
                 <ContactPage />

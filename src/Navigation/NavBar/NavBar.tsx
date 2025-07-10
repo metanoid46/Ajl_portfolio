@@ -7,9 +7,9 @@ import './NavBar.css';
 
 const items = [
   { id: 1, nav: '/Ajl_portfolio', label: 'Home', icon: <Home className="h-[3vh] w-[3vw]" /> },
-  { id: 2, nav: '/projects', label: 'Projects', icon: <LucideLayoutGrid className="h-[3vh] w-[3vw]" /> },
-  { id: 3, nav: '/about', label: 'About Me', icon: <CircleUserRound className="h-[3vh] w-[3vw]" /> },
-  { id: 4, nav: '/contact', label: 'Contact', icon: <Mail className="h-[3vh] w-[3vw]" /> },
+  { id: 2, nav: '/Ajl_portfolio/projects', label: 'Projects', icon: <LucideLayoutGrid className="h-[3vh] w-[3vw]" /> },
+  { id: 3, nav: '/Ajl_portfolio/about', label: 'About Me', icon: <CircleUserRound className="h-[3vh] w-[3vw]" /> },
+  { id: 4, nav: '/Ajl_portfolio/contact', label: 'Contact', icon: <Mail className="h-[3vh] w-[3vw]" /> },
 ];
 
 const NavBar = () => {
