@@ -66,9 +66,7 @@ html, body, #root {
   box-sizing: border-box;
   margin: 0;
 }
-.header{
-  margin: 1vw;
-}
+
 .main {
  display: grid;
   grid-template-rows: 1fr 10vh;

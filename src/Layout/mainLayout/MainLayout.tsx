@@ -14,7 +14,7 @@ const MainLayout = ({children}:MainLayoutProps) => {
     <>
     <ReactiveBackground/>
     <div className='wrapper'>
-        <header className='header' >
+        <header >
             <AppBar/>
         </header>
         <main className='main'>
