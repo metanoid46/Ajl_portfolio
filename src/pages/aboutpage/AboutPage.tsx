@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Aboutme from './AboutMe'
 import { techStack } from './LanguagesAndFrameworks'
 import './About.css'

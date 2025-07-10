@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Home, LucideLayoutGrid, Mail, CircleUserRound } from 'lucide-react';
 import { Card } from '@/components/ui/card';

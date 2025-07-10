@@ -1,5 +1,5 @@
 import AppBar from '@/Navigation/AppBar/AppBar';
-import React, { type ReactNode } from 'react'
+import  { type ReactNode } from 'react'
 import './MainLayout.css'
 import NavBar from '@/Navigation/NavBar/NavBar';
 import { Card } from '@/components/ui/card';
