@@ -54,6 +54,9 @@ html, body, #root {
 
 
 @media (max-width: 768px) {
+  :root{
+    font-size: 3vw;
+  }
   .wrapper {
   width: 100vw;
   height: 80vh;
@@ -106,4 +109,18 @@ html, body, #root {
   width: 100%;
   bottom: 0;
 }
+
+  .Wrapper {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .mainContent {
+    flex: 3;
+  }
+
+  .sidebar {
+    flex: 1;
+  }
 }
