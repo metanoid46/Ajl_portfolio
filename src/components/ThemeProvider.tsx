@@ -13,16 +13,13 @@ type ThemeProviderState = {
   setTheme: (theme: Theme) => void;
 };
 
-// Default state
 const initialState: ThemeProviderState = {
   theme: "system",
   setTheme: () => null,
 };
 
-// Create Context
 const ThemeProviderContext = createContext<ThemeProviderState>(initialState);
 
-// Provider Component
 export function ThemeProvider({
   children,
   defaultTheme = "system",
@@ -36,7 +33,6 @@ export function ThemeProvider({
     return defaultTheme;
   });
 
-  // Apply theme to <html> element
   useEffect(() => {
     const root = window.document.documentElement;
     root.classList.remove("light", "dark");
@@ -50,7 +46,7 @@ export function ThemeProvider({
 
     root.classList.add(appliedTheme);
 
-    // Optional Safari fix (force reflow)
+   
     root.style.display = "none";
     requestAnimationFrame(() => {
       root.style.display = "";
@@ -72,7 +68,7 @@ export function ThemeProvider({
   );
 }
 
-// Hook to use Theme
+
 export const useTheme = () => {
   const context = useContext(ThemeProviderContext);
   if (!context) {
