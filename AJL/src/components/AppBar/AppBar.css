@@ -1,0 +1,13 @@
+.appBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    height: fit-content;
+}
+.logo{
+    height: 3vh;
+    width: 3vh;
+
+}
