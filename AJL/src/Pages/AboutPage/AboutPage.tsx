@@ -1,5 +1,5 @@
 import { Card } from '@/components/ui/card'
-import React from 'react'
+
 import './AboutPage.css'
 const Education=[ 
     {
