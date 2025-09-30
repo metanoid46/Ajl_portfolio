@@ -18,7 +18,7 @@ const projects = [
   {
     id: 2,
     title: 'Produle',
-    link: 'https://example.com/produle',
+    link: 'https://produle.vercel.app',
     description: `A project manager that helps users break projects into smaller steps for
     easier tracking, collaboration, and accountability.`,
     stacks: ["React", "MongoDB", "Express", "Node", "JavaScript", "AntD", "JWT", "SMTP"],
@@ -65,6 +65,7 @@ const ProjectPage: React.FC = () => {
             </div>
         ))}
       </div>
+
     </div>
   );
 };

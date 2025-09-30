@@ -1,7 +1,7 @@
 import React from 'react'
 import me from '@/assets/me.svg'
 import './HomePage.css'
-import { Github, Linkedin, Mail } from 'lucide-react';
+
 const HomePage: React.FC = () => {
   return (
   <div className='homePage'>

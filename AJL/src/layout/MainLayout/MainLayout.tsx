@@ -23,7 +23,7 @@ const Main: React.FC<PageMainProps> = ({
   pages = [
     { id: 1, title: "HOME", content: <HomePage />, color: "#811C0E" },
     { id: 2, title: "ABOUT", content: <AboutPage />, color: "#631107ff" },
-    { id: 3, title: "PROJECTS", content: <ProjectPage />, color: "#530f06ff" },
+    { id: 3, title: "PROJECTS", content: <ProjectPage />, color: "#420c05ff" },
     { id: 4, title: "CONTACT", content: <ContactPage />, color: "#080100ff" },
   ],
   onPageChange
@@ -104,7 +104,7 @@ const Main: React.FC<PageMainProps> = ({
     return 0.1;
   };
 
-  const currentColor = pages.find(p => p.id === currentPageId)?.color || "#000";
+  const currentColor = pages.find(p => p.id === currentPageId)?.color || "";
 
   return (
     <div className='body' style={{ backgroundColor: currentColor, transition: 'background-color 0.5s ease' }}>
