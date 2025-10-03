@@ -44,7 +44,7 @@ const AboutPage = () => {
             
                 <div className='educationTitle title'>Education</div>
                 {Education.map((edu)=>(
-                    <Card key={edu.id} className='card educationCard timelineItem'>
+                    <Card key={edu.id} className='aboutCard educationCard timelineItem'>
                     <div className='educationDetails'>
                         <div className='degree'><div>{edu.Degree}</div> <div>{edu.startDate} - {edu.endDate}</div></div>
                         <div className='university sub'>{edu.University}</div>
@@ -58,7 +58,7 @@ const AboutPage = () => {
            
                 <div className='workTitle title'>Work Experience</div>
                 {workExperience.map((work)=>(
-                     <Card key={work.id} className='card workCard timelineItem'>
+                     <Card key={work.id} className='aboutCard workCard timelineItem'>
                     <div className='workDetails'>
                         <div className='position'><div>{work.position}</div> <div> {work.startDate} - {work.endDate}</div></div>
                         <div className='company sub'>{work.company}</div>

@@ -68,7 +68,7 @@ html, body, #root {
   --background: oklch(1 0 0);
   --foreground: oklch(82.31 0.229 32.52);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.13 0.028 261.692);
+  --card-foreground:oklch(82.31 0.229 32.52);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.13 0.028 261.692);
   --primary: oklch(0.21 0.034 264.665);
