@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { cn } from '@/lib/utils'
+
 import { Menu, X } from 'lucide-react'
 
 interface NavItem {
@@ -16,7 +16,7 @@ const navItems: NavItem[] = [
 ]
 
 const ScrollNavBar = () => {
-  const [activeSection, setActiveSection] = useState('Home')
+  const [, setActiveSection] = useState('Home')
   const [isOpen, setIsOpen] = useState(false)
   const scrollTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const isScrollingToSection = useRef(false)
