@@ -1,0 +1,16 @@
+{
+    "Title":"Who am I?",
+    "Description":"I am bachelor of Computer Science, major in Artificial Intelligence and Big Data. I am familiar with object oriented programming with primary focus on Java and python. I  have experience in web development using React and Node.js. Comfortable with database management using MySQL and MongoDB. I have a strong interest in AI and machine learning, and have experience working with TensorFlow and scikit-learn. I am a quick learner and always eager to take on new challenges.",
+    "Focuses":[
+        "AI & LLMs",
+        "Full Stack Development",
+        "Machine Learning",
+        "Cloud Architecture",
+        "Prompt Engineering",
+        "API Integration",
+        "Problem Solving",
+        "Technical Leadership"
+    ],
+    "Languages": ["Python", "JavaScript", "TypeScript", "Java", "SQL", "HTML5", "CSS"],
+    "Frameworks": ["React.js", "Node.js", "Express.js", "TensorFlow", "Scikit-Learn", "LangChain"]
+}

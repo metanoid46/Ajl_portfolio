@@ -1,0 +1,64 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Produle",
+      "subtitle": "AI Project Manager",
+      "date": "2025",
+      "description": "AI project manager that helps users break projects into smaller steps for easier tracking, collaboration, and accountability",
+      "impact": "Streamlined project planning and team collaboration",
+      "tech": ["React", "MongoDB", "Express", "Node.js", "JavaScript", "JWT", "SMTP"],
+      "highlights": [
+        "Intelligent project breakdown using AI",
+        "Real-time collaboration features",
+        "Task tracking and accountability system"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "AI-Powered Scheduling Assistant",
+      "subtitle": "Autonomous Workflow Automation",
+      "date": "Oct 2025",
+      "description": "Architected an autonomous n8n agent using Gemini prompt-chaining and custom WhatsApp integration to eliminate scheduling conflicts",
+      "impact": "60% reduction in manual processing time, 80% improvement in reliability",
+      "tech": ["N8N", "Google Calendar API", "WhatsApp Integration", "Google Gemini API", "Prompt Engineering", "Workflow Automation"],
+      "highlights": [
+        "Zero-to-one autonomous workflow solution",
+        "Eliminated scheduling conflicts",
+        "WhatsApp integration for accessibility",
+        "Prompt-chaining with Gemini API"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Credit Risk Prediction",
+      "subtitle": "ML-Powered Financial Analytics",
+      "date": "Jun 2025",
+      "description": "Deployed a two-stage ML pipeline on a PySpark cluster, tuning Random Forest and Neural Network ensembles for predictive accuracy",
+      "impact": "17% boost in predictive accuracy, 12% reduction in false positives",
+      "tech": ["Python", "PySpark", "Spark MLlib", "TensorFlow", "Keras", "Scikit-Learn"],
+      "highlights": [
+        "Scalable ML pipeline architecture",
+        "Random Forest & Neural Network ensembles",
+        "Large dataset processing on Spark clusters",
+        "Financial prediction optimization"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "White Knight",
+      "subtitle": "Legal Document Management Platform",
+      "date": "Oct 2024 – Jun 2025",
+      "description": "Production-ready, cloud-backed document management application solving legal workflow inefficiencies with secure form completion, access control, and real-time revision tracking",
+      "impact": "Eliminated manual document processing, improved client workflow experience",
+      "tech": ["React.js", "TypeScript", "pdf-lib", "AWS S3", "AWS DynamoDB", "Node.js", "AI Chatbot Integration"],
+      "highlights": [
+        "Role-based access control & authentication",
+        "Real-time revision tracking",
+        "AI chatbot for document understanding",
+        "Secure cloud-backed infrastructure",
+        "Production-ready full-stack application"
+      ]
+    }
+  ]
+}

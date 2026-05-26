@@ -1,0 +1,39 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "title": "AI and Software Developer",
+      "company": "Scycle AI Consulting",
+      "dateRange": "FEB 2026 – PRESENT",
+      "highlights": [
+        "Architecting enterprise-grade multi-tenant SaaS platform enabling secure access for multiple organizations with complete data isolation, SSO authentication, and compliance-ready security optimizing response times by 25%.",
+        "Engineering high-performance caching solution boosting application speed by 75% and reducing server load by 60%, while integrating AI capabilities and implementing rate limiting to prevent abuse.",
+        "Automating deployment pipeline reducing release time by 80%, eliminating manual errors, and ensuring consistent environments from development to production.",
+        "Creating comprehensive technical documentation and facilitated bi-weekly stakeholder meetings to translate complex technical decisions into business value and align development with organizational goals."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Web Developer",
+      "company": "Sample Assist",
+      "dateRange": "OCT 2024 – JUL 2025",
+      "highlights": [
+        "Led 5-month software project delivering document management system on schedule, running structured 2-week work cycles with daily team check-ins and weekly client presentations to ensure alignment with business needs, coordinating 5 developers and completing 100+ planned features with zero missed deadlines",
+        "Build enterprise document system reducing client's paperwork processing time from 4 hours to 90 minutes, able to handle 500+ monthly document transactions with digital signatures, automatic version tracking, and secure cloud storage serves up to 100+ business users",
+        "Assisted in development of a ChatGPT-powered AI chatbot proof of concept into platform via OpenAI API integration.",
+        "Architected TypeScript RESTful API with 20+ endpoints and React frontend serving 100+ authenticated users, implementing JWT authentication, role-based access control, and AWS cloud infrastructure."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bar Attendant",
+      "company": "Dapto Leagues Club",
+      "dateRange": "DEC 2022 – PRESENT",
+      "highlights": [
+        "Train and onboard new staff members across multiple operational areas, developing standardized procedures and documentation that reduce onboarding time by 40% while ensuring consistent service quality and compliance with safety standards",
+        "Manage concurrent responsibilities across bar, bistro, and floor operations while providing technical troubleshooting support for POS systems and operational equipment.",
+        "Facilitate positive stakeholder experiences through effective communication and conflict resolution, achieving 98% satisfaction while collaborating with management to maintain operational excellence and zero compliance violations"
+      ]
+    }
+  ]
+}
