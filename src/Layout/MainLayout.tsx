@@ -11,7 +11,7 @@ const ExperiencePage = lazy(() => import('@/Pages/Experience/ExperiencePage.tsx'
 const ContactPage = lazy(() => import('@/Pages/Contact/ContactPage.tsx'))
 
 // Loading fallback
-const LoadingFallback = () => <div className="min-h-full" />
+const LoadingFallback = () => <div className="min-h-full bg-background" />
 
 const MainLayout = () => {
   return (
