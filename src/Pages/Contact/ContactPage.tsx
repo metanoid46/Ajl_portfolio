@@ -79,16 +79,17 @@ function ContactPage() {
               className="group relative"
               aria-label={link.name}
             >
-              <div className="p-6 md:p-8 rounded-2xl bg-primary/10 border border-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110 hover:shadow-lg">
+              <div className="p-6 md:p-8 rounded-2xl bg-primary/10 border border-primary/20 hover:border-primary/50 transition-all duration-300 hover:scale-110 hover:shadow-lg bg-primary">
                 <img
                   src={link.icon}
                   alt={link.name}
                   loading="lazy"
-                  className="w-12 h-12 text-foreground group-hover:text-primary transition-colors duration-300"
+                  className="w-12 h-12 text-background 
+                  group-hover:text-primary transition-colors duration-300"
                   decoding="async"
                 />
               </div>
-              <p className="text-sm md:text-base font-switzer font-semibold mt-3 text-foreground/80 group-hover:text-foreground transition-colors duration-300">
+              <p className="text-sm md:text-foreground font-switzer font-semibold mt-3 text-foreground group-hover:text-foreground transition-colors duration-300 ">
                 {link.name}
               </p>
             </motion.a>
