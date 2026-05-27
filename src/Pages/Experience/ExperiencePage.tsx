@@ -55,7 +55,7 @@ function ExperiencePage() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="overflow-y-hidden overflow-x-auto max-h-[70vh] pr-2 flex flex-row"
+          className="overflow-x-auto max-h-none md:max-h-[70vh] pr-2 flex flex-row"
         >
           {experiences.map((experience) => (
             <motion.div
@@ -83,7 +83,7 @@ function ExperiencePage() {
                   </div>
 
                   {/* Highlights */}
-                  <ul className="space-y-4 md:space-y-6">
+                  <ul className="space-y-4 md:space-y-6 sm:overflow-y-auto">
                     {experience.highlights.map((highlight, idx) => (
                       <li key={idx} className="flex gap-3 md:gap-4">
                         <span className="text-background font-bold text-lg md:text-2xl sm:text-xl flex-shrink-0 mt-0.5">•</span>

@@ -33,7 +33,7 @@ export function ProjectsCarousel() {
       <div className="flex flex-col lg:flex-row items-center gap-8 max-w-6xl mx-auto">
         {/* Card */}
         <div className="w-full lg:w-2/3  rounded-3xl bg-foreground ">
-          <div className=" rounded-3xl p-8 md:p-12 min-h-96 flex flex-col justify-between text-background shadow-2xl">
+          <div className=" rounded-3xl p-4 md:p-8 lg:p-12 min-h-auto md:min-h-80 lg:min-h-96 flex flex-col justify-between text-background shadow-2xl">
             {/* Header */}
             <div>
               <div className="flex items-start justify-between mb-4">

@@ -15,18 +15,18 @@ const LoadingFallback = () => <div className="min-h-full bg-background" />
 
 const MainLayout = () => {
   return (
-   <div className="full w-full max-h-full ">
+   <div className="full w-full max-h-full overflow-x-hidden max-w-full ">
     <header className="w-full fixed p-4 top-0 left-0  z-50 bg-background ">
       <AppBar />
     </header>
     <main className="text-foreground flex flex-col">
       <div className="flex-1">
       <FlowArt>
-        <FlowSection data-section="Home" className="min-h-full flex items-center justify-center pt-20 ">
+        <FlowSection data-section="Home" className="flex items-center justify-center py-20 pt-20 ">
           <HomePage />
         </FlowSection>
 
-        <FlowSection data-section="About" className="min-h-full flex items-center justify-center pt-20 ">
+        <FlowSection data-section="About" className="flex items-center justify-center py-20 pt-20 ">
           <GlassCard >
             <Suspense fallback={<LoadingFallback />}>
               <AboutPage />
@@ -34,7 +34,7 @@ const MainLayout = () => {
           </GlassCard>
         </FlowSection>
 
-        <FlowSection data-section="Projects" className="min-h-full flex items-center justify-center pt-20">
+        <FlowSection data-section="Projects" className="flex items-center justify-center py-20 pt-20">
           <GlassCard>
             <Suspense fallback={<LoadingFallback />}>
               <ProjectsPage />
@@ -42,14 +42,14 @@ const MainLayout = () => {
           </GlassCard>
         </FlowSection>
 
-        <FlowSection data-section="Experience" className="min-h-full flex items-center justify-center pt-20">
+        <FlowSection data-section="Experience" className="flex items-center justify-center py-20 pt-20">
           <GlassCard className='bg-foreground'>
             <Suspense fallback={<LoadingFallback />}>
               <ExperiencePage />
             </Suspense>
           </GlassCard>
         </FlowSection>
-        <FlowSection  data-section="Contact" className="min-h-full flex items-center justify-center pt-20 bg-background" >
+        <FlowSection  data-section="Contact" className="flex items-center justify-center py-20 pt-20 bg-background" >
 
         <ContactPage />
         </FlowSection>
