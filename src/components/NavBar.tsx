@@ -107,7 +107,7 @@ const ScrollNavBar = () => {
         <div className="md:hidden flex items-center gap-2 bg-background/70 backdrop-blur-xl  border-primary/20 rounded-2xl px-4 py-2 shadow-xl">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="p-2 text-primary hover:text-foreground transition-colors"
+            className="p-2 text-primary hover:text-primary transition-colors"
           >
             {isOpen ? <X size={20} /> : <Menu size={20} />}
           </button>
@@ -125,7 +125,7 @@ const ScrollNavBar = () => {
                   scrollToSection(item.id)
                   setIsOpen(false)
                 }}
-                className="text-sm font-medium text-foreground/80 hover:text-primary px-4 py-2 text-left hover:bg-primary/10 rounded-lg transition-colors duration-200"
+                className="text-sm font-medium text-primary hover:text-primary px-4 py-2 text-left hover:bg-primary/10 rounded-lg transition-colors duration-200"
               >
                 {item.label}
               </button>
